@@ -1,0 +1,156 @@
+
+/* Global Styles */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding-left: 20px;
+ /* Add left padding */
+}
+
+/* Header Styles */
+.header {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Sidebar Styles */
+.sideBar {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Bar Styles */
+.rightBar {
+    background-color: #f0f0f0;
+}
+
+/* Main Window Styles */
+.mainWindow {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Item Styles */
+.menuItems {
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.menuItems:hover {
+    background-color: #0f81cc;
+    cursor: pointer;
+}
+
+/* Trend Styles */
+.trend {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.trend:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Feed Post Styles */
+.feedPost {
+    background-color: #1DA1F2;
+    color: white;
+    border-bottom: 1px solid #0f81cc;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+/* Profile Styles */
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Edit Styles */
+.profileEdit {
+    background-color: #1DA1F2;
+    color: white;
+    border: 1px solid #0f81cc;
+    width: 100px;
+    padding: 10px;
+    border-radius: 1000px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.profileEdit:hover {
+    background-color: #0f81cc;
+    cursor: pointer;
+}
+
+/* Interaction Link Styles */
+.interactionLink {
+    background-color: #f0f0f0;
+    color: #3f3f3f;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.interactionLink:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+/* Save Button Styles */
+.save {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.save:hover {
+    background-color: #0f81cc;
+    cursor: pointer;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animations */
+.sideBar,
+.rightBar,
+.mainWindow,
+.menuItems,
+.trend,
+.feedPost,
+.profile,
+.profileEdit,
+.interactionLink,
+.save {
+    animation: fadeIn 0.5s ease-in-out;
+}
